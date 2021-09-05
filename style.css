@@ -5,6 +5,7 @@
 }
 
 header{
+width: 100%;
 height: 50px;
 background-color: #ff9a4b;
 }
@@ -23,9 +24,7 @@ main{
   background-color: #eee;
 }
 
-.box:last-child{
-  margin-right: 0;
-}
+
 
 .step{
   padding: 3px;
@@ -64,6 +63,7 @@ margin: 15px 0 5px;
 
 
 footer{
+  width: 100%;
   height: 50px;
   background-color: #aaaaaa;
 }
@@ -71,19 +71,41 @@ footer{
 @media screen and (max-width:768px){
   header{
     width: 100%;
+    height: 50px;
   }
 
 
   main{
+    width: 90%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 80px;
     display: inline-block;
   }
 
   .box{
-    margin: 30px;
+    width: auto;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+  }
+
+  .img1{
+    height: 150px;
+  }
+
+  .img2{
+    height: 150px;
+  }
+
+  .img3{
+    height: 150px;
   }
 
 
   footer{
     width: 100%;
+    height: 50px;
   }
 }
