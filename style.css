@@ -75,40 +75,15 @@ footer{
 
 
   main{
-    width: 100%;
-   display: inline-block;
+    display: inline-block;
   }
 
   .box{
-    width: 100%;
-    margin: 10px 0 10px 0;
+    margin: 30px;
   }
 
-
-  .img1{
-    height: 300px;
-    background-position: cover;
-  }
-
- 
-  .img2{
-    height: 300px;
-    background-position: cover;
-  }
-
-  .img3{
-    height: 300px;
-    background-position: cover;
-  }
 
   footer{
-    height: 50px;
     width: 100%;
   }
-
-
-
-
-
-
 }
